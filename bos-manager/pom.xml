@@ -22,7 +22,6 @@
 		<module>bos-manager-dao</module>
 		<module>bos-manager-interface</module>
 		<module>bos-manager-service</module>
-		<module>bos-manager-web</module>
 	</modules>
 	<!-- 配置tomcat插件 -->
 	<build>

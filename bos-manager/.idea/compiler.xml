@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bos-common" />
+        <module name="bos-manager-dao" />
+        <module name="bos-manager-interface" />
+        <module name="bos-manager-pojo" />
+        <module name="bos-manager-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bos-manager-web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
