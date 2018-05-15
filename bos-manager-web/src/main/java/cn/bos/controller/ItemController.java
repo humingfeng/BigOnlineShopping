@@ -1,6 +1,7 @@
 package cn.bos.controller;
 
 
+import cn.bos.common.pojo.EasyUIDataGridResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -28,5 +29,13 @@ public class ItemController {
         TbItem tbItem = itemService.getItemById(itemId);
         return tbItem;
     }
+
+    @RequestMapping("/item/list")
+    @ResponseBody
+    public EasyUIDataGridResult getItemList(Integer page, Integer rows) {
+        EasyUIDataGridResult result = itemService.getItemList(page, rows);
+        return result;
+    }
+
 }
 
