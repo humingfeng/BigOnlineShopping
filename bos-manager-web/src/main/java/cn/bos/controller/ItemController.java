@@ -2,6 +2,7 @@ package cn.bos.controller;
 
 
 import cn.bos.common.pojo.EasyUIDataGridResult;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -20,6 +21,8 @@ import cn.bos.service.ItemService;
 @Controller
 public class ItemController {
 
+    private Logger log = Logger.getLogger(ItemController.class);
+
     @Autowired
     private ItemService itemService;
 
@@ -34,6 +37,7 @@ public class ItemController {
     @ResponseBody
     public EasyUIDataGridResult getItemList(Integer page, Integer rows) {
         EasyUIDataGridResult result = itemService.getItemList(page, rows);
+        log.debug("EasyUIDataGridResult="+result.toString());
         return result;
     }
 

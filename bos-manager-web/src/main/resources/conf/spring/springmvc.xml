@@ -26,5 +26,6 @@
     <dubbo:application name="bos-manager-web"/>
     <dubbo:registry protocol="zookeeper" address="47.94.221.127:2181"/>
     <dubbo:reference interface="cn.bos.service.ItemService" id="itemService" timeout="3000000"/>
+    <dubbo:reference interface="cn.bos.service.ItemCatService" id="itemCatService" timeout="3000000"/>
 
 </beans>
