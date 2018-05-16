@@ -6,6 +6,7 @@ import cn.bos.common.pojo.EasyUIDataGridResult;
 import cn.bos.service.ItemService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -22,6 +23,8 @@ import cn.bos.pojo.TbItemExample.Criteria;
  */
 @Service
 public class ItemServiceImpl implements ItemService {
+
+//    private Logger log = Logger.getLogger(ItemServiceImpl.class);
 
     @Autowired
     private TbItemMapper itemMapper;
@@ -55,6 +58,8 @@ public class ItemServiceImpl implements ItemService {
         //执行查询
         TbItemExample tbItemExample = new TbItemExample();
         List<TbItem> tbItems = itemMapper.selectByExample(tbItemExample);
+
+//        log.debug("tbItems="+tbItems.size());
 
         //取分页信息
         PageInfo<TbItem> pageInfo = new PageInfo<>(tbItems);
