@@ -1,5 +1,6 @@
-**BigOnlineShopping 技术选型 <br>
- Maven（管理依赖及工程构建）
+#BigOnlineShopping <br>
+##技术选型 <br>
+>>Maven（管理依赖及工程构建）
 
 Git（版本控制工具）
 
