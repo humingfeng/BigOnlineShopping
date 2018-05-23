@@ -15,7 +15,7 @@
     <dependencies>
         <dependency>
             <groupId>cn.bos</groupId>
-            <artifactId>bos-manager-interface</artifactId>
+            <artifactId>bos-content-interface</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <!-- Spring -->
