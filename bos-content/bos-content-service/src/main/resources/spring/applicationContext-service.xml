@@ -21,4 +21,5 @@
 	<dubbo:protocol name="dubbo" port="20881" />
 	<!-- 声明需要暴露的服务接口 -->
 	<dubbo:service interface="cn.bos.content.service.ContentService" ref="contentServiceImpl" timeout="600000"/>
+	<dubbo:service interface="cn.bos.content.service.ContentCategoryService" ref="contentCategoryServiceImpl" timeout="600000"/>
 </beans>
