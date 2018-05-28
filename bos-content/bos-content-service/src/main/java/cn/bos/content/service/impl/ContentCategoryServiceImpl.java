@@ -7,6 +7,7 @@ import cn.bos.content.service.ContentCategoryService;
 import cn.bos.mapper.TbContentCategoryMapper;
 import cn.bos.pojo.TbContentCategory;
 import cn.bos.pojo.TbContentCategoryExample;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -27,10 +28,9 @@ import java.util.List;
 public class ContentCategoryServiceImpl implements ContentCategoryService {
 
 
-
     @Autowired
     private TbContentCategoryMapper contentCategoryMapper;
-
+    private Logger log;
 
     @Override
     public List<EasyUITreeNode> getContentCategoryList(long parentId) {
@@ -61,6 +61,7 @@ public class ContentCategoryServiceImpl implements ContentCategoryService {
 
     @Override
     public E3Result addContentCategory(long parentId, String name) {
+        log.debug("dddd");
         // 1、接收两个参数：parentId、name
         // 2、向tb_content_category表中插入数据。
         // a)创建一个TbContentCategory对象
