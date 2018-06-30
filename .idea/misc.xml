@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/bos-content/bos-content-service" />
+    <file type="web" url="file://$PROJECT_DIR$/bos-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/bos-manager/bos-manager-service" />
+    <file type="web" url="file://$PROJECT_DIR$/bos-portal-web" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/bos-portal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/bos-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/bos-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/bos-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/bos-content/pom.xml" />
+        <option value="$PROJECT_DIR$/bos-common/pom.xml" />
+      </list>
+    </option>
+  </component>
+</project>
