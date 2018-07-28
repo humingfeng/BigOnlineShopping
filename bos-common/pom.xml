@@ -54,13 +54,10 @@
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.csource/fastdfs-client-java -->
 		<dependency>
-			<groupId>org.csource</groupId>
-			<artifactId>fastdfs-client-java</artifactId>
-			<version>1.27-RELEASE</version>
+			<groupId>fastdfs_client</groupId>
+			<artifactId>fastdfs_client</artifactId>
+			<version>1.25</version>
 		</dependency>
-
-
 	</dependencies>
 </project>
