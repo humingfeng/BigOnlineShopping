@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb9c0384-8beb-473e-a78e-aee07c74439c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bos-manager-web/target/classes/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-manager-web/target/classes/conf/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-manager-web/target/classes/resource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-portal-web/target/classes/conf/resource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bos-portal-web/target/classes/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-common/bos-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-common/bos-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-content/bos-content-interface/bos-content-interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-content/bos-content-interface/bos-content-interface.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-content/bos-content-service/bos-content-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-content/bos-content-service/bos-content-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-content/bos-content.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-content/bos-content.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-manager-web/bos-manager-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-manager-web/bos-manager-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-manager/bos-manager-dao/bos-manager-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-manager/bos-manager-dao/bos-manager-dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-manager/bos-manager-interface/bos-manager-interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-manager/bos-manager-interface/bos-manager-interface.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-manager/bos-manager-pojo/bos-manager-pojo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-manager/bos-manager-pojo/bos-manager-pojo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-manager/bos-manager-service/bos-manager-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-manager/bos-manager-service/bos-manager-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-manager/bos-manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-manager/bos-manager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos-portal-web/bos-portal-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bos-portal-web/bos-portal-web.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/bos-portal-web/target/" />
+    <ignored path="$PROJECT_DIR$/bos-parent/target/" />
+    <ignored path="$PROJECT_DIR$/bos-manager-web/target/" />
+    <ignored path="$PROJECT_DIR$/bos-manager/target/" />
+    <ignored path="$PROJECT_DIR$/bos-manager/bos-manager-service/target/" />
+    <ignored path="$PROJECT_DIR$/bos-manager/bos-manager-dao/target/" />
+    <ignored path="$PROJECT_DIR$/bos-manager/bos-manager-pojo/target/" />
+    <ignored path="$PROJECT_DIR$/bos-manager/bos-manager-interface/target/" />
+    <ignored path="$PROJECT_DIR$/bos-content/target/" />
+    <ignored path="$PROJECT_DIR$/bos-content/bos-content-service/target/" />
+    <ignored path="$PROJECT_DIR$/bos-content/bos-content-interface/target/" />
+    <ignored path="$PROJECT_DIR$/bos-common/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bos-portal-web/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bos-common/src/main/java/cn/bos/common/utils/FastDFSClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bos-common/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bos-parent/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>commons-fileupload</find>
+      <find>httpclient</find>
+      <find>jackson-databind</find>
+      <find>fast</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bos-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/bos-common/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\MyProjects\apache-maven-3.3.3\.m2\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.3.3" />
+        <option name="userSettingsFile" value="D:\MyProjects\apache-maven-3.3.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="bos-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="bos-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="bos-content-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="bos-content-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1020" />
+    <option name="width" value="1998" />
+    <option name="height" value="1296" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BigOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigOnlineShopping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigOnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigOnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="bos-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigOnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="bos-common" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigOnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="bos-content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigOnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="bos-content" type="462c0819:PsiDirectoryNode" />
+              <item name="bos-content-interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigOnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="bos-content" type="462c0819:PsiDirectoryNode" />
+              <item name="bos-content-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigOnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="bos-manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigOnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="bos-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="bos-manager-dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigOnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="bos-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="bos-manager-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigOnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="bos-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="bos-manager-interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigOnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="bos-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="bos-manager-pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigOnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="bos-manager-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigOnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="bos-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigOnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="bos-portal-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigOnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="bos-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BigOnlineShopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigOnlineShopping" type="462c0819:PsiDirectoryNode" />
+              <item name="bos-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb9c0384-8beb-473e-a78e-aee07c74439c" name="Default Changelist" comment="" />
+      <created>1553953223603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553953223603</updated>
+      <workItem from="1553953227429" duration="1504000" />
+      <workItem from="1554039084642" duration="5672000" />
+    </task>
+    <task id="LOCAL-00165" summary="environment commit">
+      <created>1541515375928</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1541515375928</updated>
+    </task>
+    <task id="LOCAL-00166" summary="environment commit">
+      <created>1541515386374</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1541515386374</updated>
+    </task>
+    <task id="LOCAL-00167" summary="environment commit">
+      <created>1541515394185</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1541515394185</updated>
+    </task>
+    <task id="LOCAL-00168" summary="environment commit">
+      <created>1541688206206</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1541688206206</updated>
+    </task>
+    <task id="LOCAL-00169" summary="environment commit">
+      <created>1541774616485</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1541774616486</updated>
+    </task>
+    <task id="LOCAL-00170" summary="environment commit">
+      <created>1542033828618</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1542033828618</updated>
+    </task>
+    <task id="LOCAL-00171" summary="environment commit">
+      <created>1542206637614</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1542206637614</updated>
+    </task>
+    <task id="LOCAL-00172" summary="environment commit">
+      <created>1542206647163</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1542206647163</updated>
+    </task>
+    <task id="LOCAL-00173" summary="environment commit">
+      <created>1542465858452</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1542465858452</updated>
+    </task>
+    <task id="LOCAL-00174" summary="environment commit">
+      <created>1542465868930</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1542465868930</updated>
+    </task>
+    <task id="LOCAL-00175" summary="environment commit">
+      <created>1542638678453</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1542638678453</updated>
+    </task>
+    <task id="LOCAL-00176" summary="environment commit">
+      <created>1542811493731</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1542811493731</updated>
+    </task>
+    <task id="LOCAL-00177" summary="environment commit">
+      <created>1542984301442</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1542984301443</updated>
+    </task>
+    <task id="LOCAL-00178" summary="environment commit">
+      <created>1542984309198</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1542984309198</updated>
+    </task>
+    <task id="LOCAL-00179" summary="environment commit">
+      <created>1542984319121</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1542984319121</updated>
+    </task>
+    <task id="LOCAL-00180" summary="environment commit">
+      <created>1542984327330</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1542984327330</updated>
+    </task>
+    <task id="LOCAL-00181" summary="environment commit">
+      <created>1543243537571</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1543243537571</updated>
+    </task>
+    <task id="LOCAL-00182" summary="environment commit">
+      <created>1543329949776</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1543329949776</updated>
+    </task>
+    <task id="LOCAL-00183" summary="environment commit">
+      <created>1543502761028</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1543502761028</updated>
+    </task>
+    <task id="LOCAL-00184" summary="environment commit">
+      <created>1543589171989</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1543589171989</updated>
+    </task>
+    <task id="LOCAL-00185" summary="environment commit">
+      <created>1543762148511</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1543762148511</updated>
+    </task>
+    <task id="LOCAL-00186" summary="environment commit">
+      <created>1544021363604</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1544021363604</updated>
+    </task>
+    <task id="LOCAL-00187" summary="environment commit">
+      <created>1544194175298</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1544194175298</updated>
+    </task>
+    <task id="LOCAL-00188" summary="environment commit">
+      <created>1544453385000</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1544453385000</updated>
+    </task>
+    <task id="LOCAL-00189" summary="environment commit">
+      <created>1544539794830</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1544539794830</updated>
+    </task>
+    <task id="LOCAL-00190" summary="environment commit">
+      <created>1544712605040</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1544712605041</updated>
+    </task>
+    <task id="LOCAL-00191" summary="environment commit">
+      <created>1544971821092</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1544971821092</updated>
+    </task>
+    <task id="LOCAL-00192" summary="environment commit">
+      <created>1544972006471</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1544972006471</updated>
+    </task>
+    <task id="LOCAL-00193" summary="environment commit">
+      <created>1545058430954</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1545058430954</updated>
+    </task>
+    <task id="LOCAL-00194" summary="environment commit">
+      <created>1545317645408</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1545317645408</updated>
+    </task>
+    <task id="LOCAL-00195" summary="environment commit">
+      <created>1545317661485</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1545317661485</updated>
+    </task>
+    <task id="LOCAL-00196" summary="environment commit">
+      <created>1545317671968</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1545317671968</updated>
+    </task>
+    <task id="LOCAL-00197" summary="environment commit">
+      <created>1545317685357</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1545317685357</updated>
+    </task>
+    <task id="LOCAL-00198" summary="environment commit">
+      <created>1545490494289</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1545490494289</updated>
+    </task>
+    <task id="LOCAL-00199" summary="environment commit">
+      <created>1545836106331</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1545836106331</updated>
+    </task>
+    <task id="LOCAL-00200" summary="environment commit">
+      <created>1545836116994</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1545836116994</updated>
+    </task>
+    <task id="LOCAL-00201" summary="environment commit">
+      <created>1545836130654</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1545836130654</updated>
+    </task>
+    <task id="LOCAL-00202" summary="environment commit">
+      <created>1546008939289</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1546008939289</updated>
+    </task>
+    <task id="LOCAL-00203" summary="environment commit">
+      <created>1546268152849</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1546268152849</updated>
+    </task>
+    <task id="LOCAL-00204" summary="environment commit">
+      <created>1546268162674</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1546268162674</updated>
+    </task>
+    <task id="LOCAL-00205" summary="environment commit">
+      <created>1546268172828</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1546268172828</updated>
+    </task>
+    <task id="LOCAL-00206" summary="environment commit">
+      <created>1553785027388</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1553785027388</updated>
+    </task>
+    <task id="LOCAL-00207" summary="environment commit">
+      <created>1553785036884</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1553785036884</updated>
+    </task>
+    <task id="LOCAL-00208" summary="environment commit">
+      <created>1553785047133</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1553785047133</updated>
+    </task>
+    <task id="LOCAL-00209" summary="environment commit">
+      <created>1553871459168</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1553871459168</updated>
+    </task>
+    <task id="LOCAL-00210" summary="environment commit">
+      <created>1553957869577</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1553957869577</updated>
+    </task>
+    <task id="LOCAL-00211" summary="environment commit">
+      <created>1554044703133</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1554044703133</updated>
+    </task>
+    <task id="LOCAL-00212" summary="environment commit">
+      <created>1554044714389</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1554044714389</updated>
+    </task>
+    <task id="LOCAL-00213" summary="environment commit">
+      <created>1554044719339</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1554044719339</updated>
+    </task>
+    <option name="localTasksCounter" value="214" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7176000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25279552" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49960065" weight="0.27517843" />
+      <window_info anchor="bottom" id="JRebel Executor" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30293417" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50039935" side_tool="true" weight="0.3298969" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49960065" weight="0.3298969" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32947284" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Mybatis datasource" order="6" side_tool="true" />
+      <window_info anchor="right" id="Key Promoter X" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25279552" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" order="0" sideWeight="0.49960065" visible="true" weight="0.27517843" />
+      <window_info anchor="bottom" id="JRebel Executor" order="1" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.30293417" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="9" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50039935" side_tool="true" weight="0.3298969" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.49960065" weight="0.3298969" />
+      <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32947284" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Mybatis datasource" order="6" side_tool="true" />
+      <window_info anchor="right" id="Key Promoter X" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="environment commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="environment commit" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bos-portal-web/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-parent/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-common/src/main/java/cn/bos/common/utils/FastDFSClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos-common/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
