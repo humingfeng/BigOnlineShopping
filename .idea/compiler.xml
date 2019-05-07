@@ -6,11 +6,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bos-portal-web" />
+        <module name="bos-manager-pojo" />
+        <module name="bos-content-interface" />
+        <module name="bos-manager-interface" />
         <module name="bos-common" />
+        <module name="bos-manager-web" />
+        <module name="bos-manager-service" />
+        <module name="bos-content-service" />
+        <module name="bos-manager-dao" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="bos-common" target="1.5" />
+      <module name="bos-common" target="1.7" />
+      <module name="bos-content" target="1.7" />
+      <module name="bos-content-interface" target="1.7" />
+      <module name="bos-content-service" target="1.7" />
+      <module name="bos-manager" target="1.7" />
+      <module name="bos-manager-dao" target="1.7" />
+      <module name="bos-manager-interface" target="1.7" />
+      <module name="bos-manager-pojo" target="1.7" />
+      <module name="bos-manager-service" target="1.7" />
+      <module name="bos-manager-web" target="1.7" />
+      <module name="bos-parent" target="1.7" />
+      <module name="bos-portal-web" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
